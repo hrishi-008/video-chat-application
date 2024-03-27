@@ -39,10 +39,10 @@ This is a video chat application built using AgoraRTC for real-time communicatio
   - Implement necessary changes to ensure compatibility and functionality.
 
 ### Contributors
-- [Hrishikesh Kalola](linkedin.com/in/hrishk)
+- [Hrishikesh Kalola](https://www.linkedin.com/in/hrishk/)
 
 ### Feedback and Issues
-If you have any feedback or encounter any issues while using the application, please feel free to [submit an issue](https://github.com/video-chat-application/issues) on GitHub.
+If you have any feedback or encounter any issues while using the application, please feel free to [submit an issue](https://github.com/hrishi-008/video-chat-application/issues) on GitHub.
 
 ### License
 Mozilla Public License Version 2.0
