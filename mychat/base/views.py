@@ -5,11 +5,12 @@ import time, random
 import json
 from .models import RoomMember
 from django.views.decorators.csrf import csrf_exempt
+import os
 
 # Create your views here.
 def getToken(request):
-    appId = "<yourAppId>";
-    appCertificate = '<yourAppCertificate>'
+    appId = os.environ.get('APP_ID')
+    appCertificate = os.environ.get('APP_CERTIFICATE')
     channelName = request.GET.get('channel')
     uid = random.randint(1, 230)
     expireTimeInSeconds = 3600*24
